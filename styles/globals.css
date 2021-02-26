@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 8px 0px;
 }
